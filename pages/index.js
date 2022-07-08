@@ -1,18 +1,18 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import styles from '../styles/index.module.css'
 
 export default function Home() {
   const linkedin = 'https://www.linkedin.com/in/brtmvdl/'
   const github = 'https://github.com/brtmvdl'
 
   return (
-    <>
+    <div>
       <Head>
         <title>Tarsis Lima</title>
       </Head>
 
-      <div>
-
+      <div className={styles.curriculum}>
         <h1>Tarsis Lima</h1>
         <p></p>
 
@@ -153,6 +153,6 @@ export default function Home() {
         <p></p>
       </div>
 
-    </>
+    </div>
   )
 }
