@@ -2,26 +2,21 @@
 
 A portfolio project
 
-# How to
+## Stack
 
-1. Install [Docker](http://docker.com)
+[Docker](http://docker.com)
 
-2. Install [Node.js](https://nodejs.org)
+[Node.js](https://nodejs.org)
 
-3. Clone this repository
-
-```sh
-git clone git@github.com:brtmvdl/blog.git
-cd blog
-```
-
-4. Run the project
+## How to
 
 ```sh
-bash ./env/run.sh 
+bash env/pull.sh 
+
+bash env/up.sh 
 ```
 
-5. Open [0.0.0.0:3000/blog](http://0.0.0.0:3000/blog) in browser
+Open [0.0.0.0:3000/blog](http://0.0.0.0:3000/blog) in browser
 
 ## From
 
@@ -29,4 +24,4 @@ https://github.com/vercel/next.js/tree/canary/examples/github-pages
 
 ## License
 
-[MIT](LICENSE)
+[MIT](./LICENSE)
