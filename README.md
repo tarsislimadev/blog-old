@@ -11,9 +11,11 @@ A portfolio project
 ## How to
 
 ```sh
-bash env/pull.sh 
+bash env/pull.sh
 
-bash env/up.sh 
+bash env/install.sh
+
+bash env/up.sh
 ```
 
 Open [0.0.0.0:3000/blog](http://0.0.0.0:3000/blog) in browser
